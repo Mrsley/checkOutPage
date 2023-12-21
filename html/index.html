@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>WP Checkout</title>
+</head>
+<body>
+    
+    <div class="projectContainer">
+
+        <nav>
+            <img src="../images/logo.png" alt="">
+
+            <div class="navigations">
+                <a href="">Download</a>
+                <a href="">Learn more</a>
+                <a href="">Pricing</a>
+                <a href="">Help</a>
+                <button class="navButton">Account</button>
+            </div>
+        </nav>
+
+        <section class="panel">
+            <div class="panelLeftSide">
+                <p class="panelLeftSideTitle">Checkout</p>
+                <div class="panelLeftSideRectangle"></div>
+                <div class="basicInformation">
+                    <div class="basicInformationHeader">
+                        <div class="basicInformationNumbering"><p>1</p></div>
+                        <p>Your Basic Information</p>
+                    </div>
+                </div>
+                <form action="" class="basicInformationForm">
+                    <label for="firstName" class="firstName">
+                        First Name
+                        <input type="text" id="firstName" placeholder="Jane" required>
+                    </label>
+
+                    <label for="lastName" class="lastName">
+                        Last Name
+                        <input type="text" id="lastName" placeholder="Doe" required>
+                    </label>
+
+                    <label for="email" class="email">
+                        Email
+                        <input type="email" id="email" placeholder="janedoe@example.com" required>
+                    </label>
+                </form>
+
+                <div class="rectangle"></div>
+
+                <div class="paymentInformation">
+                    <div class="paymentInformationHeader">
+                        <div class="paymentInformationNumbering"><p>2</p></div>
+                        <p>Your Payment Information</p>
+                    </div>
+                </div>
+                <form action="" class="paymentInformationForm">
+                    <label for="firstName" class="firstName">
+                        Credit Card
+                        <div class="input">
+                            <input type="text" id="cardNumber" placeholder="Card Number" required>
+                            <input type="text" id="monthAndYear" placeholder="MM/YY" required>
+                            <input type="text" id="cvv" placeholder="CVV" required>
+                        </div>
+                    </label>
+                </form>
+
+                <div class="rectangle"></div>
+
+                <button class="mainButton">Buy WP Pusher</button>
+
+                <div class="supportContact">
+                    <img src="../icons/mask.png" alt="">
+                    <p>Need any help? <span>Don’t hesitate to contact support!</span></p>
+                </div>
+
+                <img src="../images/poweredByStripe.png" alt="" class="stripeImage">
+
+            </div>
+
+            <div class="panelRightSide">
+                <div class="panelRightSideContainer">
+                    <p>Freelancer</p>
+
+                    <div class="pricing">
+                        <p>
+                            <sup>$</sup>
+                            99 
+                            <span>/year</span>
+                        </p>
+                    </div>
+                    <p class="renewal">
+                        Automatically renews 
+                        <br>
+                        after 1 year
+                    </p>
+
+                    <div class="details">
+                        <div class="checkmarks">
+                            <div>
+                                <img src="../icons/checkmark.png" alt="">
+                                <p>Use on <span>5</span> client sites</p>
+                            </div>
+
+                            <div>
+                                <img src="../icons/checkmark.png" alt="">
+                                <p>Private repositories</p>
+                            </div>
+                            <div>
+                                <img src="../icons/checkmark.png" alt="">
+                                <p>Email support</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="switch">
+                        Need <span>20</span> client sites?
+                        <br><br>
+                        <p>Switch to the <i>Agency</i> plan.</p>
+                        <div class="switchRectangle"></div>
+                    </div>
+
+                    <div class="panelRightSideRectangle">
+                    </div>
+
+                    <div class="qoute">
+                        <p>
+                            FTP is horrible to deal with. <span>WP Pusher</span> solves that issue, and the customer support is awesome!
+                        </p>
+
+                        <div class="bitmap">
+                            <img src="../images/smallImage.png" alt="">
+                            <p>Kirk Beard</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="bottomText">© 2018 WP Pusher IVS  · <span>Terms of Service</span></p>
+        </section>
+    </div>
+
+</body>
+</html>
